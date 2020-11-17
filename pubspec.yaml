@@ -60,9 +60,10 @@ flutter:
   # example:
 
   fonts:
-   - family: IndieFlower
+   - family: Lobster
      fonts:
-       - asset: fonts/IndieFlower-Regular.ttf
+       - asset: fonts/Lobster-Regular.ttf
+
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

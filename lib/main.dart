@@ -28,7 +28,9 @@ class HomePage extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Text('My Dice App'),
+          title: Text('My Dice App', style: new TextStyle(
+            fontFamily: 'Lobster',
+          ),),
           centerTitle: true,
           backgroundColor: Colors.red[600]
       ),
@@ -50,7 +52,9 @@ class HomePage extends State<MainPage> {
              rolldice();
              player.play('roll.mp3');
              },
-           child: Text('Roll dice'),
+           child: Text('Roll dice', style: new TextStyle(
+             fontFamily: 'Lobster',
+           ),),
          ),]
         ),
       ),
